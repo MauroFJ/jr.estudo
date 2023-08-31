@@ -1,0 +1,20 @@
+div{
+    background-color: darkgray;
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#d01:hover {
+    background-color: rgb(11, 223, 11);
+}
+
+#d02:hover {
+    background-color: yellow;
+}
+
+#d03:hover {
+    background-color: red;
+}
