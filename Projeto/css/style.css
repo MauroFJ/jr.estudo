@@ -13,11 +13,10 @@ p{
     font-size: 1.8em;
     color: #fff;
 }
-div#pokebola{
+div{
     width: 100px;
-    height: 2px;
+    display: flex;
     padding-top: 32px;
-
 }
 
 
