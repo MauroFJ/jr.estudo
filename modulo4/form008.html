@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="cadastro.php" method="get">
+        
+        <p>
+            <label for="num1">Digite um número:</label>
+            <input type="number" name="numero1" id="num1" required oninput="soma.innerHTML = Number(num1.value) + Number (num2.value)">
+        </p>
+
+        <p>
+            <label for="num2">Digite um número:</label>
+            <input type="number" name="numero2" id="num2" required oninput="soma.innerHTML = Number(num1.value) + Number (num2.value)">>
+        </p>
+
+        <p>
+            <label for="soma">A soma é :</label>
+            <output name="saida" id="soma">0</output>
+        </p>
+
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
